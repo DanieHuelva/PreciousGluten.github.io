@@ -1,0 +1,113 @@
+
+header {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+  margin: auto;
+  justify-content: center;
+  }
+  .menu-header{
+    background-color: #CF9C61;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+    margin: auto;
+    justify-content: center;
+  }
+  .locations-header{
+    background-color: #CF9C61;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+    margin: auto;
+    justify-content: center;
+  }
+  .right{
+    justify-content: left;
+  }
+  header #header-logo {
+    height: 100px;
+    transition: all .3s linear;
+  }
+  header:hover{
+    background-color: #CF9C61;
+  }
+
+  header ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+  }
+
+  header ul li {
+    list-style-type: none;
+    font-family: 'Playfair Display', serif;
+  }
+
+  header ul li a {
+    padding: 40px 25px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all .3s linear;
+    font-size: 16px;
+  }
+
+  header ul li a:hover {
+    color: black;
+    font-weight: bolder;
+    background-color: rgb(221, 171, 83);
+    box-shadow: 0 0 15px rgba(0,0,0,.25);
+  }
+
+  header ul li a.active {
+    background-color: rgb(221, 171, 83);
+}
+
+footer{
+  width: 100%;
+  }
+  .footer{
+    background-color:#CF9C61;
+    padding:30px 0px;
+    text-align:center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer p{
+    font-family: 'Playfair Display', serif;
+  }
+  .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:rgb(67, 66, 66);
+  font-size:0.8em;
+  text-align: center;
+  }
+  
+  .row a{
+  text-decoration:none;
+  color:rgb(67, 66, 66);
+  transition:0.5s;
+  }
+  
+  .row a:hover{
+  color:#fff;
+  }
+  
+  .row ul li{
+  display:inline-block;
+  margin:0px 30px;
+  font-family: 'Playfair Display', serif;
+  }
+  
+  .row a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+footer img{
+  width: 100px;
+}
